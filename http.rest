@@ -30,4 +30,4 @@ Content-Type: application/json
 
 ####
 
-GET http://localhost:8081/posts/68b6fabd3d8a45a499033993
+GET http://localhost:8081/posts/titlesearch?text=bom%20dia

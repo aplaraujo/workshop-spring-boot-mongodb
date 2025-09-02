@@ -23,8 +23,7 @@ public class Instantiation implements CommandLineRunner{
 
     @Autowired
     private PostRepository postRepository;
-
-    @SuppressWarnings("unused")
+    
     @Override
     public void run(String... args) throws Exception {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
@@ -42,9 +41,9 @@ public class Instantiation implements CommandLineRunner{
         Post post1 = new Post(null, sdf.parse("21/03/2018"), "Partiu viagem", "Vou viajar para São Paulo. Abraços!", new AuthorDTO(augusto));
         Post post2 = new Post(null, sdf.parse("23/08/2018"), "Bom dia", "Acordei feliz hoje!", new AuthorDTO(elza));
 
-        CommentDTO comment1 = new CommentDTO(null, "Boa viagem mano!", sdf.parse("21/03/2018"), new AuthorDTO(joaquim));
-        CommentDTO comment2 = new CommentDTO(null, "Aproveite!", sdf.parse("22/03/2018"), new AuthorDTO(elza));
-        CommentDTO comment3 = new CommentDTO(null, "Tenha um ótimo dia!", sdf.parse("23/03/2018"), new AuthorDTO(augusto)); 
+        CommentDTO comment1 = new CommentDTO("Boa viagem mano!", sdf.parse("21/03/2018"), new AuthorDTO(joaquim));
+        CommentDTO comment2 = new CommentDTO("Aproveite!", sdf.parse("22/03/2018"), new AuthorDTO(elza));
+        CommentDTO comment3 = new CommentDTO("Tenha um ótimo dia!", sdf.parse("23/03/2018"), new AuthorDTO(augusto)); 
         
         post1.getComments().addAll(Arrays.asList(comment1, comment2));
         post2.getComments().addAll(Arrays.asList(comment3));
