@@ -27,3 +27,7 @@ Content-Type: application/json
     "name": "Aparecida E. dos Santos",
     "email": "aparecida.emilly.dossantos@cfaraujo.eng.br"
 }
+
+####
+
+GET http://localhost:8081/posts/68b6fabd3d8a45a499033993
