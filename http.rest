@@ -13,3 +13,7 @@ Content-Type: application/json
     "name": "Aparecida Emilly dos Santos",
     "email": "aparecida.emilly.dossantos@cfaraujo.eng.br"
 }
+
+####
+
+DELETE http://localhost:8081/users/68b636e3754f40bdde6baa29
