@@ -30,4 +30,4 @@ Content-Type: application/json
 
 ####
 
-GET http://localhost:8081/posts/titlesearch?text=Bom%20dia
+GET http://localhost:8081/posts/fullsearch?text=aproveite&minDate=2018-03-21
