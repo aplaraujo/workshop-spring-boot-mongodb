@@ -2,7 +2,7 @@ GET http://localhost:8081/users
 
 #####
 
-GET http://localhost:8081/users/68b62f26439e4591ebe290cc
+GET http://localhost:8081/users/68b6f40d2d104dda1db278bd/posts
 
 #####
 
