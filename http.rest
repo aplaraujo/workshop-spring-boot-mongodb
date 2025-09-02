@@ -17,3 +17,13 @@ Content-Type: application/json
 ####
 
 DELETE http://localhost:8081/users/68b636e3754f40bdde6baa29
+
+####
+
+PUT http://localhost:8081/users/68b63a21189f2ed2a0533200
+Content-Type: application/json
+
+{
+    "name": "Aparecida E. dos Santos",
+    "email": "aparecida.emilly.dossantos@cfaraujo.eng.br"
+}
